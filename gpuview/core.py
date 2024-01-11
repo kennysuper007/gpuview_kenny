@@ -42,8 +42,9 @@ def my_gpustat():
         delete_list = []
         for gpu_id, gpu in enumerate(stat['gpus']):
             if type(gpu['processes']) is str:
-                delete_list.append(gpu_id)
-                continue
+                gpu['processes'] = []
+                #delete_list.append(gpu_id)
+                #continue
             gpu['memory'] = round(float(gpu['memory.used']) /
                                   float(gpu['memory.total']) * 100)
             if SAFE_ZONE:
