@@ -17,7 +17,7 @@
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-        <a class="navbar-brand" href="index.html">gpuview dashboard</a>
+        <a class="navbar-brand" href="index.html">🟢 NLPSA GPUs Dashboard</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" 
             data-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -114,11 +114,54 @@
             </div>
             <footer class="sticky-footer">
                 <div class="container">
-                    <div class="text-center text-white">
-                        <small><a href='https://github.com/fgaim/gpuview'>gpuview</a> © 2018</small>
+                    <div class="text-center">
+                        <a href="https://docs.google.com/spreadsheets/d/1zLZkqg2crYFqR8gIscUztg16UyoL1oEdfyDes0A15vY/edit?usp=sharing" target="_blank">
+                            <button class="register-btn">Register GPU Now!</button>
+                        </a>                    
+                    </div>
+                    <div class="text-center footer-text">
+                        <small>NLPSA <a href='https://github.com/fgaim/gpuview'>gpuview</a> © 2024</small>
                     </div>
                 </div>
+
+                <style>
+                    .container {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        min-height: 100px; /* 根據需要調整 */
+                    }
+
+                    .register-btn {
+                        padding: 10px 20px;
+                        margin-bottom: 10px; /* 按鈕和文本之間的間隔 */
+                        background-color: #4CAF50; /* 綠色背景 */
+                        color: white; /* 白色文字 */
+                        border: none;
+                        border-radius: 5px;
+                        font-size: 16px;
+                        cursor: pointer;
+                        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* 陰影效果 */
+                        transition: 0.3s;
+                    }
+
+                    .register-btn:hover {
+                        background-color: #45a049; /* 深綠色背景 */
+                    }
+
+                    .footer-text {
+                        color: white;
+                    }
+
+                    .text-center {
+                        text-align: center;
+                    }
+                </style>
             </footer>
+
+
+
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
