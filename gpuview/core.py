@@ -91,6 +91,8 @@ def all_gpustats():
 
     gpustats = []
     mystat = my_gpustat()
+
+    print(mystat)
     if 'gpus' in mystat:
         gpustats.append(mystat)
 
