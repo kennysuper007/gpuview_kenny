@@ -15,9 +15,9 @@ setuptools.setup(
     description='A lightweight web dashboard for monitoring GPU usage',
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url='https://github.com/fgaim/gpuview',
-    author='Fitsum Gaim',
-    author_email='fitsum@geezlab.com',
+    url='https://github.com/kennysuper007/gpuview_kenny',
+    author='Kenny',
+    author_email='kennytabletennis@gmail.com',
     keywords='gpu web-monitoring',
     classifiers=[
         'Development Status :: 3 - Alpha',
