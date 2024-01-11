@@ -76,9 +76,9 @@ def my_gpustat():
             elif gpu['temperature.gpu'] > 25:
                 gpu['flag'] = 'bg-success'
 
-        if delete_list:
-            for gpu_id in delete_list:
-                stat['gpus'].pop(gpu_id)
+        #if delete_list:
+        #    for gpu_id in delete_list:
+        #        stat['gpus'].pop(gpu_id)
 
         return stat
     except Exception as e:
